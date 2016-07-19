@@ -1,0 +1,189 @@
+; $Id: theme995.info, v 1.0
+; $Developer: Anima
+; $Coder: Anima
+; $DeupalVer: 7.37
+
+; Theme Info -----------------------------------------------------------------
+; required information about the theme
+
+name = theme995
+description = This template is made by <a href="//template-help.com">template-help.com</a>
+screenshot = screenshot.png
+core = 7.x
+engine = phptemplate
+
+; Stylesheets ----------------------------------------------------------------
+; We use [screen] instead of [all] to avoid browser styles affecting
+; other media types.
+
+stylesheets[screen][]	= css/boilerplate.css
+stylesheets[screen][]	= css/style.css
+stylesheets[screen][]	= css/maintenance-page.css
+stylesheets[screen][]	= css/skeleton.css
+stylesheets[screen][]	= css/custom.css
+
+; Scripts ---------------------------------------------------------------------
+scripts[]				= js/theme995.core.js
+scripts[]				= js/jquery.loader.js
+scripts[]				= js/jquery.mobilemenu.js
+scripts[]				= js/jquery.debouncedresize.js
+scripts[]				= js/jquery.easing.js
+scripts[]				= js/jquery.ui.totop.js
+scripts[]				= js/jquery.cookie.js
+scripts[]				= js/tm-stick-up.js
+scripts[]				= js/tformer.js
+scripts[]				= js/device.min.js
+scripts[]				= js/jquery.mousewheel.min.js
+scripts[]				= js/jquery.simplr.smoothscroll.min.js
+scripts[]				= js/migrate.js
+scripts[]				= js/tm-parallax.js
+
+; Regions --------------------------------------------------------------------
+; these content regions are available for block placement
+; some are special hidden regions: page_top, page_bottom, and help
+
+; these are the stock regions
+regions[header_top]			= Header Top
+regions[header]				= Header
+regions[header_bottom]		= Header Bottom
+regions[menu]				= Menu
+regions[help]				= Help
+
+regions[content_top]		= Content Top
+regions[section_top_1]		= Section Top 1
+regions[section_top_2]		= Section Top 2
+regions[section_top_3]		= Section Top 3
+regions[content]			= Content
+regions[section_bottom_1]	= Section Bottom 1
+regions[section_bottom_2]	= Section Bottom 2
+regions[section_bottom_3]	= Section Bottom 3
+regions[content_bottom]		= Content Bottom
+
+regions[sidebar_first]		= Sidebar Left
+regions[sidebar_second]		= Sidebar Right
+
+regions[footer_top]			= Footer Top
+regions[footer]				= Footer
+
+regions[page_top]			= Page Top
+regions[page_bottom]		= Page Bottom
+
+regions[highlighted]		= Highlighted
+
+
+; Options --------------------------------------------------------------------
+; these are the checkboxes that are available on the theme settings page.
+
+; General settings
+settings[toggle_logo]								= 0
+settings[toggle_name]								= 1
+settings[toggle_slogan]								= 0
+settings[toggle_node_user_picture]					= 0
+settings[toggle_comment_user_picture]				= 1
+settings[toggle_comment_user_verification]			= 1
+settings[toggle_favicon]							= 1
+settings[toggle_main_menu]							= 1
+settings[toggle_secondary_menu]						= 1
+
+settings[default_favicon]							= 1
+
+settings[default_logo]								= 1
+
+settings[theme995_sticky_menu]						= 1
+
+; Breadcrumb settings
+settings[theme995_breadcrumb_show]					= 0
+settings[theme995_breadcrumb_hideonlyfront]			= 1
+settings[theme995_breadcrumb_showtitle]				= 1
+settings[theme995_breadcrumb_separator]				= " &#187; "
+
+; Regions settings
+settings[theme995_header_bg_type]					= 'none'
+settings[theme995_header_bg_img][fid]				= 2
+settings[theme995_header_bg_parallax]				= 0
+settings[theme995_header_bg_video]					= "http://youtu.be/2kodXWejuy0"
+settings[theme995_header_bg_video_start]			= 0
+settings[theme995_header_fullwidth]					= 1
+
+settings[theme995_header_bottom_bg_type]			= 'none'
+settings[theme995_header_bottom_bg_img][fid]		= 2
+settings[theme995_header_bottom_bg_parallax]		= 0
+settings[theme995_header_bottom_bg_video]			= "http://youtu.be/2kodXWejuy0"
+settings[theme995_header_bottom_bg_video_start]		= 0
+settings[theme995_header_bottom_fullwidth]			= 0
+
+settings[theme995_content_top_bg_type]				= 'none'
+settings[theme995_content_top_bg_img][fid]			= 2
+settings[theme995_content_top_bg_parallax]			= 0
+settings[theme995_content_top_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[theme995_content_top_bg_video_start]		= 0
+settings[theme995_content_top_fullwidth]			= 0
+
+settings[theme995_section_top_1_bg_type]			= 'image'
+settings[theme995_section_top_1_bg_img][fid]		= 38
+settings[theme995_section_top_1_bg_parallax]		= 1
+settings[theme995_section_top_1_bg_video]			= "http://youtu.be/2kodXWejuy0"
+settings[theme995_section_top_1_bg_video_start]		= 0
+settings[theme995_section_top_1_fullwidth]			= 0
+
+settings[theme995_section_top_2_bg_type]			= 'image'
+settings[theme995_section_top_2_bg_img][fid]		= 40
+settings[theme995_section_top_2_bg_parallax]		= 1
+settings[theme995_section_top_2_bg_video]			= "http://youtu.be/2kodXWejuy0"
+settings[theme995_section_top_2_bg_video_start]		= 0
+settings[theme995_section_top_2_fullwidth]			= 0
+
+settings[theme995_section_top_3_bg_type]			= 'image'
+settings[theme995_section_top_3_bg_img][fid]		= 42
+settings[theme995_section_top_3_bg_parallax]		= 1
+settings[theme995_section_top_3_bg_video]			= "http://youtu.be/2kodXWejuy0"
+settings[theme995_section_top_3_bg_video_start]		= 0
+settings[theme995_section_top_3_fullwidth]			= 0
+
+settings[theme995_content_top_bg_type]				= 'none'
+settings[theme995_content_top_bg_img][fid]			= 2
+settings[theme995_content_top_bg_parallax]			= 0
+settings[theme995_content_top_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[theme995_content_top_bg_video_start]		= 0
+settings[theme995_content_top_fullwidth]			= 0
+
+settings[theme995_section_bottom_1_bg_type]			= 'image'
+settings[theme995_section_bottom_1_bg_img][fid]		= 39
+settings[theme995_section_bottom_1_bg_parallax]		= 1
+settings[theme995_section_bottom_1_bg_video]		= "http://youtu.be/2kodXWejuy0"
+settings[theme995_section_bottom_1_bg_video_start]	= 0
+settings[theme995_section_bottom_1_fullwidth]		= 0
+
+settings[theme995_section_bottom_2_bg_type]			= 'image'
+settings[theme995_section_bottom_2_bg_img][fid]		= 41
+settings[theme995_section_bottom_2_bg_parallax]		= 1
+settings[theme995_section_bottom_2_bg_video]		= "http://youtu.be/2kodXWejuy0"
+settings[theme995_section_bottom_2_bg_video_start]	= 0
+settings[theme995_section_bottom_2_fullwidth]		= 0
+
+settings[theme995_section_bottom_3_bg_type]			= 'none'
+settings[theme995_section_bottom_3_bg_img][fid]		= 2
+settings[theme995_section_bottom_3_bg_parallax]		= 0
+settings[theme995_section_bottom_3_bg_video]		= "http://youtu.be/2kodXWejuy0"
+settings[theme995_section_bottom_3_bg_video_start]	= 0
+settings[theme995_section_bottom_3_fullwidth]		= 0
+
+settings[theme995_content_bottom_bg_type]			= 'none'
+settings[theme995_content_bottom_bg_img][fid]		= 2
+settings[theme995_content_bottom_bg_parallax]		= 0
+settings[theme995_content_bottom_bg_video]			= "http://youtu.be/2kodXWejuy0"
+settings[theme995_content_bottom_bg_video_start]	= 0
+settings[theme995_content_bottom_fullwidth]			= 0
+
+settings[theme995_footer_top_bg_type]				= 'none'
+settings[theme995_footer_top_bg_img][fid]			= 2
+settings[theme995_footer_top_bg_parallax]			= 0
+settings[theme995_footer_top_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[theme995_footer_top_bg_video_start]		= 0
+settings[theme995_footer_top_fullwidth]				= 0
+
+; Blog settings
+settings[theme995_blog_title]						= ""
+
+; Custom CSS
+settings[theme995_custom_css]						= ""

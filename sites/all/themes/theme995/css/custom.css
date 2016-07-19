@@ -1,0 +1,30 @@
+.relativa150 {
+    position: relative;
+    top: 30px;
+    left: 128px;
+}
+
+.relativa400{
+   position: relative;
+   top: -19px;
+   left: 462px;
+   margin: 0px;
+   margin-bottom:0px;
+}
+.absoluta0{
+   position:absolute;
+   top: 8px;
+   left: 0px;
+}
+.relativa0 {
+    position: relative;
+    top: -5px;
+    left: 0px;
+}
+.letratema{
+     font: 400 17px/18px 'Comfortaa', cursive;
+}
+.relativatop{
+     position:absolute;
+     bottom: 50px;
+}
